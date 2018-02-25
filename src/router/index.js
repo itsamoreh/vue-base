@@ -5,6 +5,7 @@ import Components from '@/pages/Components';
 import Forms from '@/pages/Forms';
 import Icons from '@/pages/Icons';
 import HelloWorld from '@/pages/HelloWorld';
+import Base from '@/pages/Base';
 
 Vue.use(Router);
 
@@ -29,6 +30,11 @@ export default new Router({
       path: '/icons',
       name: 'Icons',
       component: Icons,
+    },
+    {
+      path: '/base',
+      name: 'Base',
+      component: Base,
     },
   ],
 });

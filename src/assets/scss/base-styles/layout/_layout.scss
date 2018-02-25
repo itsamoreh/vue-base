@@ -39,6 +39,15 @@
   display: none !important;
 }
 
+// Responsive flex breakpoint system
+.show-flex-xs,
+.show-flex-sm,
+.show-flex-md,
+.show-flex-lg,
+.show-flex-xl {
+  display: flex !important;
+}
+
 // Responsive grid system
 .columns {
   display: flex;
@@ -189,6 +198,9 @@
   .show-xl {
     display: block !important;
   }
+  .show-flex-xl {
+    display: flex !important;
+  }
 }
 @media (max-width: $size-lg) {
   .col-lg-12,
@@ -246,6 +258,9 @@
   }
   .show-lg {
     display: block !important;
+  }
+  .show-flex-lg {
+    display: flex !important;
   }
 }
 @media (max-width: $size-md) {
@@ -305,6 +320,9 @@
   .show-md {
     display: block !important;
   }
+  .show-flex-md {
+    display: flex !important;
+  }
 }
 @media (max-width: $size-sm) {
   .col-sm-12,
@@ -363,6 +381,9 @@
   .show-sm {
     display: block !important;
   }
+  .show-flex-sm {
+    display: flex !important;
+  }
 }
 @media (max-width: $size-xs) {
   .col-xs-12,
@@ -420,5 +441,8 @@
   }
   .show-xs {
     display: block !important;
+  }
+  .show-flex-xs {
+    display: flex !important;
   }
 }

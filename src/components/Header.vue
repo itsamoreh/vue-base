@@ -6,7 +6,13 @@
           <span class="navbar-brand">vue-base</span>
         </router-link>
       </section>
-      <section class="navbar-section">
+      <section class="navbar-section navbar-mobile-menu">
+        <s-button class="btn-primary btn-action"><feather-menu></feather-menu></s-button>
+      </section>
+      <section class="navbar-section hide-sm">
+        <router-link to="base">
+          <s-button class="btn-link">Base</s-button>
+        </router-link>
         <router-link to="components">
           <s-button class="btn-link">Components</s-button>
         </router-link>
@@ -16,7 +22,7 @@
         <router-link to="icons">
           <s-button class="btn-link">Icons</s-button>
         </router-link>
-        <router-link to="download">
+        <router-link class="hide-md" to="download">
           <s-button class="btn-primary btn-text-icon">
             <feather-github></feather-github>
             Github
@@ -67,10 +73,20 @@ export default {
     font-weight: 500;
     text-decoration: none;
   }
+
+  .navbar-mobile-menu {
+    display: none;
+    justify-content: flex-end;
+
+    @include mediaMobile() {
+      display: flex;
+    }
+  }
 }
 
 a {
   margin: 0 $layout-spacing;
+  text-decoration: none;
 
   &:first-child {
     margin-left: 0;
@@ -78,6 +94,15 @@ a {
 
   &:last-child {
     margin-right: 0;
+  }
+
+  &.router-link-active {
+    font-weight: 700;
+  }
+
+  &:focus,
+  .btn:focus {
+    box-shadow: none;
   }
 }
 </style>

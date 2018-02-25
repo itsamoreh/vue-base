@@ -38,3 +38,11 @@ a {
     text-decoration: underline;
   }
 }
+
+pre,
+code,
+samp {
+  padding: 0 $control-padding-x-sm;
+  color: $primary-color;
+  background-color: $bg-color;
+}

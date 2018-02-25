@@ -2,6 +2,7 @@
   <!-- eslint-disable -->
   <div class="container grid-xl">
     <h1>Components</h1>
+    <p><a href="https://picturepan2.github.io/spectre/getting-started.html">SpectreCSS based components</a>, component styles are scoped in each component at: <s-code>/src/components/*.vue</s-code></p>
 
     <div class="component-group">
       <h2>Buttons</h2>

@@ -3,15 +3,21 @@
     <nav class="navbar container grid-xl">
       <section class="navbar-section">
         <router-link to="/">
-          <span class="navbar-brand">itsamoreh/vue.js-base</span>
+          <span class="navbar-brand">vue-base</span>
         </router-link>
       </section>
       <section class="navbar-section">
-        <router-link to="styleguide">
-          <a-button class="btn-link">Components</a-button>
+        <router-link to="components">
+          <s-button class="btn-link">Components</s-button>
+        </router-link>
+        <router-link to="icons">
+          <s-button class="btn-link">Icons</s-button>
         </router-link>
         <router-link to="download">
-          <a-button class="btn-primary">Download</a-button>
+          <s-button class="btn-primary btn-text-icon">
+            <feather-github></feather-github>
+            Github
+          </s-button>
         </router-link>
       </section>
     </nav>

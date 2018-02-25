@@ -1,7 +1,7 @@
 {
-  "name": "onion-or-not",
+  "name": "vue-base",
   "version": "1.0.0",
-  "description": "Is it from The Onion or /r/nottheonion?",
+  "description": "Vue.js base project with Spectre.css based components, and Feather Icons",
   "author": "Amor <amor@amorkumar.com>",
   "private": true,
   "scripts": {

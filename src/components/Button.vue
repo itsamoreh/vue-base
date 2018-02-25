@@ -29,7 +29,9 @@ export default {
   border-radius: $border-radius;
   color: $primary-color;
   cursor: pointer;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   font-size: $font-size;
   height: $control-size;
   line-height: $line-height;
@@ -175,6 +177,13 @@ export default {
 
     &::before {
       content: "\2715";
+    }
+  }
+
+  // Button Text Icons
+  &.btn-text-icon {
+    svg {
+      margin-right: $unit-2;
     }
   }
 }

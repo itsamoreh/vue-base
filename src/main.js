@@ -3,20 +3,26 @@
 import Vue from 'vue';
 import App from './App';
 
+// Router
+import router from './router';
+
 // Global UI Components
 import Button from './components/Button';
 import ButtonGroup from './components/ButtonGroup';
 import Code from './components/Code';
 import Label from './components/Label';
 
-// Router
-import router from './router';
+// Vue Feather Icons
+import VueFeatherIcon from './icons/vue-feather-icons';
 
 // Global Component Registration
-Vue.component('a-button', Button);
-Vue.component('a-button-group', ButtonGroup);
-Vue.component('a-code', Code);
-Vue.component('a-label', Label);
+Vue.component('s-button', Button);
+Vue.component('s-button-group', ButtonGroup);
+Vue.component('s-code', Code);
+Vue.component('s-label', Label);
+
+// Vue Feather Icon Registration
+Vue.use(VueFeatherIcon);
 
 Vue.config.productionTip = false;
 

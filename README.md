@@ -1,6 +1,6 @@
-# onion-or-not
+# vue-base
 
-> Is it from The Onion or /r/nottheonion?
+> Vue.js base project with Spectre.css based components, and Feather Icons
 
 ## Build Setup
 

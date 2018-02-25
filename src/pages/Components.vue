@@ -107,4 +107,7 @@ export default {
 // Global scss file with vars and mixins (aliased in webpack.base.conf.js)
 @import '~vars-mixins';
 
+.component-group {
+  margin-bottom: $unit-16;
+}
 </style>

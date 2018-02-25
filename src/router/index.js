@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 // Pages
 import Components from '@/pages/Components';
+import Forms from '@/pages/Forms';
 import Icons from '@/pages/Icons';
 import HelloWorld from '@/pages/HelloWorld';
 
@@ -18,6 +19,11 @@ export default new Router({
       path: '/components',
       name: 'Components',
       component: Components,
+    },
+    {
+      path: '/forms',
+      name: 'Forms',
+      component: Forms,
     },
     {
       path: '/icons',

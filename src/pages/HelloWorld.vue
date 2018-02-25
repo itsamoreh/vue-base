@@ -2,7 +2,7 @@
   <!-- eslint-disable -->
   <div class="container grid-xl">
     <h1>Hello World!</h1>
-    <p>This is a Vue.js base project with <router-link to="components">Spectre.css based components</router-link>, and <router-link to="icons">Feather Icons</router-link>.</p>
+    <p>This is a Vue.js base project with <router-link to="components">Spectre.css based components</router-link>, <router-link to="forms">VeeValidate powered forms</router-link> and <router-link to="icons">Feather Icons</router-link>.</p>
     <hr>
     <h2>Links</h2>
     <div class="external-links">
@@ -42,6 +42,10 @@ export default {
         {
           url: 'https://picturepan2.github.io/spectre/getting-started.html',
           title: 'Spectre.css',
+        },
+        {
+          url: 'http://vee-validate.logaretm.com/index.html',
+          title: 'VeeValidate',
         },
         {
           url: 'https://feathericons.com/',

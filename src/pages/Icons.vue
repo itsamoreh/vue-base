@@ -5,8 +5,17 @@
     <s-code lang="html">&lt;feather-star&gt;&lt;/feather-star&gt;
 &lt;!-- or --&gt;
 &lt;feather-icon type=&quot;star&quot;&gt;&lt;/feather-icon&gt;</s-code>
+    <div class="input-group search">
+      <span class="input-group-addon addon-primary addon-lg">
+        <feather-search class="form-icon"></feather-search>
+      </span>
+      <input v-model="searchQuery" type="text" class="form-input input-lg">
+    </div>
     <div class="icons-container">
-      <div class="text-icon-spacing" v-for="icon in icons" :key="icon">
+      <div
+        class="text-icon-spacing"
+        v-for="icon in filteredIcons" :key="icon"
+      >
         <div class="text-icon">
           <feather-icon class="icon" :type="icon"></feather-icon>
           {{ icon }}
@@ -19,9 +28,19 @@
 <script>
 export default {
   name: 'Icons',
+  computed: {
+    filteredIcons() {
+      return this.icons.filter(icon =>
+        icon.toLowerCase().indexOf(this.searchQuery.toLowerCase()) > -1,
+      );
+    },
+  },
   data() {
     return {
+      searchQuery: '',
+      iconSelected: 'star',
       icons: [],
+      iconsFiltered: [],
     };
   },
   methods: {
@@ -280,6 +299,10 @@ export default {
 <style lang="scss" scoped>
 // Global scss file with vars and mixins (aliased in webpack.base.conf.js)
 @import '~vars-mixins';
+
+.search {
+  margin-bottom: $layout-spacing-lg;
+}
 
 .icons-container {
   display: flex;

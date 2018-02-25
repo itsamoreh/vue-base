@@ -10,6 +10,9 @@
         <router-link to="components">
           <s-button class="btn-link">Components</s-button>
         </router-link>
+        <router-link to="forms">
+          <s-button class="btn-link">Forms</s-button>
+        </router-link>
         <router-link to="icons">
           <s-button class="btn-link">Icons</s-button>
         </router-link>

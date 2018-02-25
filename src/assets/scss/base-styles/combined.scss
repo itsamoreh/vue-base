@@ -1,3 +1,59 @@
-// Combined global scss
+// -- Variables and mixins (../vars-mixins) are imported in Vue components:
+// -- @import '~vars-mixins'; inside component <style> tag
+// -- @import "variables"; DONE
+// -- @import "mixins"; DONE
+
+// Reset and dependencies
 @import 'normalize';
 @import 'base';
+
+// Elements
+@import 'elements/typography';
+@import 'elements/asian';
+@import 'elements/media';
+// -- Elements are Vue components:
+// -- @import "tables";
+// -- @import "buttons"; DONE
+// -- @import "forms";
+// -- @import "labels"; DONE
+// -- @import "codes"; DONE
+
+// Layout
+@import 'layout/layout';
+// -- Navbar is a Vue component
+// -- @import "navbar"; DONE
+
+
+// Components
+// -- Components are all Vue components:
+// -- @import "accordions";
+// -- @import "avatars";
+// -- @import "badges";
+// -- @import "breadcrumbs";
+// -- @import "bars";
+// -- @import "cards";
+// -- @import "chips";
+// -- @import "dropdowns";
+// -- @import "empty";
+// -- @import "menus";
+// -- @import "modals";
+// -- @import "navs";
+// -- @import "pagination";
+// -- @import "panels";
+// -- @import "popovers";
+// -- @import "steps";
+// -- @import "tabs";
+// -- @import "tiles";
+// -- @import "toasts";
+// -- @import "tooltips";
+
+// Utilities
+@import "utilities/animations";
+@import "utilities/colors";
+@import "utilities/cursors";
+@import "utilities/display";
+@import "utilities/divider";
+@import "utilities/loading";
+@import "utilities/position";
+@import "utilities/shapes";
+@import "utilities/text";

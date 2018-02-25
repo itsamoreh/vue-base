@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import OnoGame from '@/components/OnoGame';
+// Pages
+import Components from '@/pages/Components';
+import HelloWorld from '@/pages/HelloWorld';
 
 Vue.use(Router);
 
@@ -8,8 +10,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'OnoGame',
-      component: OnoGame,
+      name: 'HelloWorld',
+      component: HelloWorld,
+    },
+    {
+      path: '/styleguide',
+      name: 'Components',
+      component: Components,
     },
   ],
 });

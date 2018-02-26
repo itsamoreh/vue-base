@@ -5,7 +5,7 @@
     <s-code lang="html">&lt;feather-star&gt;&lt;/feather-star&gt;
 &lt;!-- or --&gt;
 &lt;feather-icon type=&quot;star&quot;&gt;&lt;/feather-icon&gt;</s-code>
-    <p>Add new icons to: <s-code>/src/icons/components/</s-code>.</p>
+    <p>Add new icons to: <s-code>/src/icons/components/</s-code></p>
     <div class="input-group search">
       <span class="input-group-addon addon-primary addon-lg">
         <feather-search class="form-icon"></feather-search>

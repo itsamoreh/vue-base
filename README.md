@@ -1,6 +1,6 @@
 # vue-base
 
-> Vue.js base project with Spectre.css based components, and Feather Icons
+> Vue.js base project with Spectre.css based components, VeeValidate powered forms and Feather Icons
 
 ## Build Setup
 

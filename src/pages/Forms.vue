@@ -184,7 +184,7 @@
             <label class="form-label" for="email-example-2">Email</label>
           </div>
           <div class="col-9">
-            <input class="form-input" type="email" id="email-example-2" placeholder="Email" value="spectre@example.com" pattern="[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$">
+            <input class="form-input" type="email" id="email-example-2" placeholder="Email" value="example@example.com" pattern="[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$">
           </div>
         </div>
         <div class="form-group">
@@ -192,7 +192,7 @@
             <label class="form-label" for="url-example-1">URL</label>
           </div>
           <div class="col-9">
-            <input class="form-input" type="url" id="url-example-1" placeholder="URL" value="https://github.com/picturepan2/spectre">
+            <input class="form-input" type="url" id="url-example-1" placeholder="URL" value="https://github.com/itsamoreh/vue-base">
           </div>
         </div>
         <div class="form-group">

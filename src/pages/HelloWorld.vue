@@ -72,6 +72,7 @@ hr {
 .external-links {
   .btn {
     margin-right: $layout-spacing;
+    margin-bottom: $layout-spacing;
   }
 
   .btn:last-child {

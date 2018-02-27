@@ -27,7 +27,7 @@ $bg-color-light: $light-color !default;
 
 // Control colors
 $success-color: #7ED685 !default;
-$info-color: #17A2B8 !default;
+$info-color: $primary-color-light !default;
 $warning-color: #F0AD4E !default;
 $error-color: #D9534F !default;
 

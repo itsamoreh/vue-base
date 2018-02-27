@@ -32,7 +32,7 @@
         </div>
         <div class="column col-3 col-md-6">
           <div class="docs-color bg-info text-light">
-            <div class="color-title">#17A2B8</div>
+            <div class="color-title">#538BED</div>
             <div class="color-subtitle">Info</div>
           </div>
         </div>

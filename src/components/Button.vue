@@ -190,7 +190,11 @@ export default {
 
   // Button with link inside
   a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: inherit;
+    border-bottom: 0;
 
     &:focus,
     &:hover,

@@ -22,12 +22,12 @@
         <router-link to="icons">
           <s-button class="btn-link">Icons</s-button>
         </router-link>
-        <router-link class="hide-md" to="download">
-          <s-button class="btn-primary btn-text-icon">
+        <s-button class="btn-primary btn-text-icon navbar-btn-github">
+          <a href="https://github.com/itsamoreh/vue-base">
             <feather-github></feather-github>
             Github
-          </s-button>
-        </router-link>
+          </a>
+        </s-button>
       </section>
     </nav>
   </header>
@@ -106,5 +106,10 @@ a {
   .btn:focus {
     box-shadow: none;
   }
+}
+
+// Not navigation core styles:
+.navbar-btn-github {
+  margin-left: $control-padding-x;
 }
 </style>

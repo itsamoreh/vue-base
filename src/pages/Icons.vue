@@ -322,6 +322,14 @@ section {
   padding: $layout-spacing;
   width: 25%;
 
+  @include mediaTablet() {
+    width: 50%;
+  }
+
+  @include mediaMobile() {
+    width: 100%;
+  }
+
   .icon {
     margin-right: $layout-spacing;
   }

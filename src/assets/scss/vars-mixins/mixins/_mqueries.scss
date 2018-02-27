@@ -1,11 +1,57 @@
-@mixin mediaMobile() {
-  @media (max-width: $size-sm - 1px) {
+/*
+    Adapted from Ebay media-query responsive-boilerplate #2.
+    https://github.com/BryceEWatson/responsive-boilerplate/blob/master/media-query/media-query-boilerplate.less
+    Non-mobile first (default page is designed for large screens).
+    Use min-width queries instead if default page is designed mobile first.
+    Use media query to override when the screen gets smaller.
+*/
+
+// Queries with nice names
+@mixin mediaTablet() {
+  @media (max-width: $size-md) {
     @content;
   }
 }
 
-@mixin mediaCustomMax($size) {
-  @media (max-width: $size - 1px) {
+@mixin mediaMobile() {
+  @media (max-width: $size-sm) {
+    @content;
+  }
+}
+
+// Queries named after breakpoints in _variables.scss
+@mixin media2x() {
+  @media (max-width: $size-2x) {
+    @content;
+  }
+}
+
+@mixin mediaXl() {
+  @media (max-width: $size-xl) {
+    @content;
+  }
+}
+
+@mixin mediaLg() {
+  @media (max-width: $size-lg) {
+    @content;
+  }
+}
+
+@mixin mediaMd() {
+  @media (max-width: $size-md) {
+    @content;
+  }
+}
+
+@mixin mediaSm() {
+  @media (max-width: $size-sm) {
+    @content;
+  }
+}
+
+@mixin mediaXs() {
+  @media (max-width: $size-xs) {
     @content;
   }
 }

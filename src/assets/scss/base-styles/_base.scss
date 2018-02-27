@@ -18,7 +18,6 @@ body {
   font-family: $body-font-family;
   font-size: $font-size;
   overflow-x: hidden;
-  text-rendering: optimizeLegibility;
 }
 
 a {
@@ -37,6 +36,13 @@ a {
     color: $link-color-dark;
     text-decoration: underline;
   }
+}
+
+::-moz-selection { 
+  background: $highlight-color;
+}
+::selection { 
+  background: $highlight-color;
 }
 
 pre,

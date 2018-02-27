@@ -1,11 +1,14 @@
 <template>
   <div class="container grid-xl">
-    <h1>Icons</h1>
-    <p>Use icons in components as follows:</p>
-    <s-code lang="html">&lt;feather-star&gt;&lt;/feather-star&gt;
+    <section>
+
+      <h1>Icons</h1>
+      <p>Use icons in components as follows:</p>
+      <s-code lang="html">&lt;feather-star&gt;&lt;/feather-star&gt;
 &lt;!-- or --&gt;
 &lt;feather-icon type=&quot;star&quot;&gt;&lt;/feather-icon&gt;</s-code>
-    <p>Add new icons to: <s-code>/src/icons/components/</s-code></p>
+      <p>Add new icons to: <s-code>/src/icons/components/</s-code></p>
+    </section>
     <div class="input-group search">
       <span class="input-group-addon addon-primary addon-lg">
         <feather-search class="form-icon"></feather-search>
@@ -301,6 +304,10 @@ export default {
 // Global scss file with vars and mixins (aliased in webpack.base.conf.js)
 @import '~vars-mixins';
 
+section {
+  margin-bottom: $unit-16
+}
+
 .search {
   margin-bottom: $layout-spacing-lg;
 }
@@ -312,7 +319,6 @@ export default {
   margin-right: -$layout-spacing;
 }
 .text-icon-spacing {
-  margin-bottom: $layout-spacing;
   padding: $layout-spacing;
   width: 25%;
 
@@ -328,7 +334,10 @@ export default {
   border: 1px solid $border-color;
 
   &:hover {
-    @include control-shadow($gray-color-light);
+    @include control-shadow($border-color);
+    svg {
+      color: $primary-color;
+    }
   }
 }
 </style>

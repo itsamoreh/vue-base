@@ -2,8 +2,8 @@
   <header>
     <nav class="navbar container grid-xl">
       <section class="navbar-section">
-        <router-link to="/">
-          <span class="navbar-brand">vue-base</span>
+        <router-link to="/" class="navbar-brand">
+          vue-base
         </router-link>
       </section>
       <section class="navbar-section navbar-mobile-menu">
@@ -69,6 +69,7 @@ export default {
   }
 
   .navbar-brand {
+    padding: $control-padding-y $control-padding-x; // Match the button padding
     font-size: $font-size-lg;
     font-weight: 500;
     text-decoration: none;
@@ -87,6 +88,7 @@ export default {
 a {
   margin: 0 $layout-spacing;
   text-decoration: none;
+  border-bottom: $unit-h solid transparent;
 
   &:first-child {
     margin-left: 0;
@@ -97,7 +99,7 @@ a {
   }
 
   &.router-link-active {
-    font-weight: 700;
+    border-bottom: $unit-h solid $primary-color;
   }
 
   &:focus,

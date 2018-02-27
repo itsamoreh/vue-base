@@ -47,8 +47,9 @@ export default {
   }
   &:focus,
   &:hover {
-    background: $secondary-color;
+    background: $primary-color;
     border-color: $primary-color-dark;
+    color: $light-color;
     text-decoration: none;
   }
   &:active,
@@ -184,6 +185,17 @@ export default {
   &.btn-text-icon {
     svg {
       margin-right: $unit-2;
+    }
+  }
+
+  // Button with link inside
+  a {
+    color: inherit;
+
+    &:focus,
+    &:hover,
+    &:active {
+      text-decoration: none;
     }
   }
 }

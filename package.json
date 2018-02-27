@@ -11,6 +11,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "typeface-didact-gothic": "0.0.54",
+    "typeface-francois-one": "0.0.54",
     "vee-validate": "^2.0.4",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"

@@ -39,7 +39,7 @@ export default {
   }
 
   &.label-secondary {
-    @include label-variant($primary-color, $secondary-color);
+    @include label-variant($light-color, $secondary-color);
   }
 
   &.label-success {

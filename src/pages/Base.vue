@@ -1,21 +1,23 @@
 <template>
   <!-- eslint-disable -->
   <div class="container grid-xl">
-    <h1>Base</h1>
-    <p>Base Styles imported globally in: <s-code>/src/assets/scss/base-styles/</s-code></p>
+    <section>
+      <h1>Base</h1>
+      <p>Base Styles imported globally in: <s-code>/src/assets/scss/base-styles/</s-code></p>
+    </section>
 
-    <div class="component-group">
+    <section>
       <h2>Colors</h2>
       <div class="columns">
         <div class="column col-3 col-md-6">
           <div class="docs-color bg-primary text-light">
-            <div class="color-title">#5755d9</div>
+            <div class="color-title">#4582EC</div>
             <div class="color-subtitle">Primary</div>
           </div>
         </div>
         <div class="column col-3 col-md-6">
-          <div class="docs-color bg-secondary text-primary">
-            <div class="color-title">#f1f1fc</div>
+          <div class="docs-color bg-secondary text-light">
+            <div class="color-title">#98A2AC</div>
             <div class="color-subtitle">Secondary</div>
           </div>
         </div>
@@ -24,19 +26,25 @@
       <div class="columns">
         <div class="column col-3 col-md-6">
           <div class="docs-color bg-success text-light">
-            <div class="color-title">#32b643</div>
+            <div class="color-title">#7ED685</div>
             <div class="color-subtitle">Success</div>
           </div>
         </div>
         <div class="column col-3 col-md-6">
+          <div class="docs-color bg-info text-light">
+            <div class="color-title">#17A2B8</div>
+            <div class="color-subtitle">Info</div>
+          </div>
+        </div>
+        <div class="column col-3 col-md-6">
           <div class="docs-color bg-warning text-light">
-            <div class="color-title">#ffb700</div>
+            <div class="color-title">#F0AD4E</div>
             <div class="color-subtitle">Warning</div>
           </div>
         </div>
         <div class="column col-3 col-md-6">
           <div class="docs-color bg-error text-light">
-            <div class="color-title">#e85600</div>
+            <div class="color-title">#D9534F</div>
             <div class="color-subtitle">Error</div>
           </div>
         </div>
@@ -45,50 +53,49 @@
       <div class="columns">
         <div class="column col-3 col-md-6">
           <div class="docs-color bg-dark text-light">
-            <div class="color-title">#454d5d</div>
+            <div class="color-title">#4C5B5C</div>
             <div class="color-subtitle">Dark</div>
           </div>
         </div>
         <div class="column col-3 col-md-6">
           <div class="docs-color bg-gray-dark text-light">
-            <div class="color-title">#727e96</div>
+            <div class="color-title">#6F8486</div>
             <div class="color-subtitle">Gray dark</div>
           </div>
         </div>
         <div class="column col-3 col-md-6">
           <div class="docs-color bg-gray text-light">
-            <div class="color-title">#acb3c2</div>
+            <div class="color-title">#B3C0C1</div>
             <div class="color-subtitle">Gray</div>
           </div>
         </div>
         <div class="column col-3 col-md-6">
           <div class="docs-color bg-gray-light text-gray-dark">
-            <div class="color-title">#e7e9ed</div>
+            <div class="color-title">#EBEFEF</div>
             <div class="color-subtitle">Gray light</div>
           </div>
         </div>
         <div class="column col-3 col-md-6">
           <div class="docs-color bg-border text-gray-dark">
-            <div class="color-title">#f0f1f4</div>
+            <div class="color-title">#E6EAEA</div>
             <div class="color-subtitle">Border</div>
           </div>
         </div>
         <div class="column col-3 col-md-6">
           <div class="docs-color bg-color text-gray-dark">
-            <div class="color-title">#f8f9fa</div>
+            <div class="color-title">#F1F3F3</div>
             <div class="color-subtitle">Background</div>
           </div>
         </div>
         <div class="column col-3 col-md-6">
           <div class="docs-color bg-light text-gray-dark">
-            <div class="color-title">#fff</div>
+            <div class="color-title">#FFF</div>
             <div class="color-subtitle">Light</div>
           </div>
         </div>
       </div>
-    </div>
-    <hr>
-    <div class="component-group">
+    </section>
+    <section>
       <h2>Headings</h2>
       <div class="columns">
         <div class="column col-12">
@@ -110,17 +117,17 @@
           <h6>H6 Heading <small><s-label>16px</s-label></small></h6>
         </div>
       </div>
-      <s-code lang="html">&lt;h1&gt;H1 Heading &lt;small&gt;&lt;s-label&gt;40px&lt;/s-label&gt;&lt;/small&gt;&lt;/h1&gt;</s-code>
-    </div>
+      <s-code lang="html">&lt;h1&gt;H1 Heading&lt;/h1&gt;</s-code>
+    </section>
 
-    <div class="component-group">
+    <section>
       <h2>Paragraphs</h2>
       <p>Lorem ipsum dolor sit amet, consectetur <a href="#">adipiscing elit. Praesent risus leo, dictum in vehicula sit amet</a>, feugiat tempus tellus. Duis quis sodales risus. Etiam euismod ornare consequat.</p>
       <p>Climb leg rub face on everything give attitude nap all day for under the bed. Chase mice attack feet but rub face on everything hopped up on goofballs.</p>
       <s-code lang="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur &lt;a href=&quot;#&quot;&gt;adipiscing elit. Praesent risus leo, dictum in vehicula sit amet&lt;/a&gt;, feugiat tempus tellus. Duis quis sodales risus. Etiam euismod ornare consequat.&lt;/p&gt;</s-code>
-    </div>
+    </section>
 
-    <div class="component-group semantic-elements">
+    <section class="semantic-elements">
       <h2>Semantic Elements</h2>
       <div class="columns">
         <div class="column col-6 col-xs-12">
@@ -220,21 +227,21 @@ Text &lt;sup&gt;Superscripted&lt;/sup&gt;
 &lt;time&gt;20:00&lt;/time&gt;
 &lt;u&gt;Underline&lt;/u&gt;
 &lt;var&gt;x&lt;/var&gt; = &lt;var&gt;y&lt;/var&gt; + 2</s-code>
-    </div>
+    </section>
 
-    <div class="component-group">
+    <section>
       <h2>Blockquotes</h2>
       <blockquote>
-        <p>The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life. </p>
-        <cite>- Bill Gates</cite>
+        <p>The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life.</p>
+        <cite>Bill Gates</cite>
       </blockquote>
       <s-code lang="html">&lt;blockquote&gt;
-        &lt;p&gt;The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life. &lt;/p&gt;
-        &lt;cite&gt;- Bill Gates&lt;/cite&gt;
+        &lt;p&gt;The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life.&lt;/p&gt;
+        &lt;cite&gt;Bill Gates&lt;/cite&gt;
 &lt;/blockquote&gt;</s-code>
-    </div>
+    </section>
 
-    <div class="component-group">
+    <section>
       <h2>Lists</h2>
       <div class="columns">
         <div class="column">
@@ -270,9 +277,9 @@ Text &lt;sup&gt;Superscripted&lt;/sup&gt;
         &lt;/li&gt;
         &lt;li&gt;list item 3&lt;/li&gt;
 &lt;/ul&gt;</s-code>
-    </div>
+    </section>
 
-    <div class="component-group">
+    <section>
       <h2>Tables</h2>
       <table class="table table-striped table-hover">
         <thead>
@@ -316,7 +323,14 @@ Text &lt;sup&gt;Superscripted&lt;/sup&gt;
           &lt;/tr&gt;
         &lt;/tbody&gt;
 &lt;/table&gt;</s-code>
-    </div>
+    </section>
+    
+    <!-- Component Group Template -->
+    <section class="d-hide">
+      <h3>Title</h3>
+      <!-- Component(s) Here -->
+      <s-code lang="html"></s-code>
+    </section>
   </div>
 </template>
 
@@ -336,13 +350,8 @@ export default {
 // Global scss file with vars and mixins (aliased in webpack.base.conf.js)
 @import '~vars-mixins';
 
-hr {
-  margin: $layout-spacing-lg 0;
-  border-color: transparent;
-}
-
-.component-group {
-  margin-bottom: $layout-spacing-lg;
+section {
+  margin-bottom: $unit-16;
 
   &.semantic-elements {
     .column {

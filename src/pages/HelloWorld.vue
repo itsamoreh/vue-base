@@ -6,15 +6,13 @@
     <hr>
     <h2>Links</h2>
     <div class="external-links">
-      <a 
-        :href="link.url"
+      <s-button 
+        class="btn-text-icon"
         v-for="(link, index) in links" :key="index"
       >
-        <s-button class="btn-text-icon">
-            <feather-external-link></feather-external-link>
-            {{ link.title }}
-        </s-button>
-      </a>
+          <feather-external-link></feather-external-link>
+          <a :href="link.url">{{ link.title }}</a>
+      </s-button>
     </div>
   </div>
 </template>
@@ -72,12 +70,11 @@ hr {
 }
 
 .external-links {
-  a {
-    display: inline-block;
+  .btn {
     margin-right: $layout-spacing;
   }
 
-  a:last-child {
+  .btn:last-child {
     margin-right: 0;
   }
 }

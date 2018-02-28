@@ -339,7 +339,7 @@ export default {
   name: 'Base',
   data() {
     return {
-      msg: 'Base Styles Page',
+      msg: 'Base Page',
     };
   },
 };

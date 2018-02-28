@@ -40,6 +40,14 @@
 &lt;/s-card&gt;</s-code>
     </section>
 
+    <!-- Component Group Template -->
+    <section>
+      <h3>Modals</h3>
+      <!-- Component(s) Here -->
+      <s-modal></s-modal>
+      <s-code lang="html">SLOTS WIP</s-code>
+    </section>
+
     <section>
       <h2>Buttons</h2>
       <s-button>Default Button</s-button>
@@ -134,7 +142,7 @@ export default {
   name: 'Components',
   data() {
     return {
-      msg: 'Components',
+      msg: 'Components Page',
     };
   },
 };

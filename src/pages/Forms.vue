@@ -37,16 +37,16 @@
       <!-- v-model example {{ email }} -->
       <code>{{ email }}</code>
       <s-code lang="html">&lt;div class=&quot;form-group&quot;&gt;
-        &lt;label class=&quot;form-label&quot; for=&quot;email-example-1&quot;&gt;Email Address&lt;/label&gt;
-        &lt;!-- Add form classes e.g. ('form-input'), error classes (elements/_forms.scss) and other attributes --&gt;
-        &lt;!-- Refer to VeeValidate Docs for more: http://vee-validate.logaretm.com/index.html --&gt;
-        &lt;input 
-          v-validate=&quot;'required|email'&quot; 
-          :class=&quot;{'form-input': true, 'is-error': errors.has('email') }&quot;
-          v-model=&quot;email&quot; 
-          id=&quot;email-example-1&quot; name=&quot;email&quot; type=&quot;text&quot; placeholder=&quot;Email&quot;
-        &gt;
-        &lt;p v-show=&quot;errors.has('email')&quot; class=&quot;form-input-hint&quot;&gt;{{ errors.first('email') }}&lt;/p&gt;
+  &lt;label class=&quot;form-label&quot; for=&quot;email-example-1&quot;&gt;Email Address&lt;/label&gt;
+  &lt;!-- Add form classes e.g. ('form-input'), error classes (elements/_forms.scss) and other attributes --&gt;
+  &lt;!-- Refer to VeeValidate Docs for more: http://vee-validate.logaretm.com/index.html --&gt;
+  &lt;input 
+    v-validate=&quot;'required|email'&quot; 
+    :class=&quot;{'form-input': true, 'is-error': errors.has('email') }&quot;
+    v-model=&quot;email&quot; 
+    id=&quot;email-example-1&quot; name=&quot;email&quot; type=&quot;text&quot; placeholder=&quot;Email&quot;
+  &gt;
+  &lt;p v-show=&quot;errors.has('email')&quot; class=&quot;form-input-hint&quot;&gt;{{ errors.first('email') }}&lt;/p&gt;
 &lt;/div&gt;
 &lt;!-- v-model example {{ email }} --&gt;
 &lt;code&gt;{{ email }}&lt;/code&gt;</s-code>
@@ -63,12 +63,12 @@
         </select>
       </div>
       <s-code lang="html">&lt;div class=&quot;form-group&quot;&gt;
-        &lt;select class=&quot;form-select&quot;&gt;
-          &lt;option&gt;Choose an option&lt;/option&gt;
-          &lt;option&gt;Slack&lt;/option&gt;
-          &lt;option&gt;Skype&lt;/option&gt;
-          &lt;option&gt;Hipchat&lt;/option&gt;
-        &lt;/select&gt;
+  &lt;select class=&quot;form-select&quot;&gt;
+    &lt;option&gt;Choose an option&lt;/option&gt;
+    &lt;option&gt;Slack&lt;/option&gt;
+    &lt;option&gt;Skype&lt;/option&gt;
+    &lt;option&gt;Hipchat&lt;/option&gt;
+  &lt;/select&gt;
 &lt;/div&gt;</s-code>
     </section>
 
@@ -86,15 +86,15 @@
         </label>
       </div>
       <s-code lang="html">&lt;div class=&quot;form-group&quot;&gt;
-        &lt;label class=&quot;form-label&quot;&gt;Gender&lt;/label&gt;
-        &lt;label class=&quot;form-radio&quot;&gt;
-          &lt;input type=&quot;radio&quot; name=&quot;gender&quot; checked&gt;
-          &lt;span class=&quot;form-icon&quot;&gt;&lt;/span&gt; Male
-        &lt;/label&gt;
-        &lt;label class=&quot;form-radio&quot;&gt;
-          &lt;input type=&quot;radio&quot; name=&quot;gender&quot;&gt;
-          &lt;span class=&quot;form-icon&quot;&gt;&lt;/span&gt; Female
-        &lt;/label&gt;
+  &lt;label class=&quot;form-label&quot;&gt;Gender&lt;/label&gt;
+  &lt;label class=&quot;form-radio&quot;&gt;
+    &lt;input type=&quot;radio&quot; name=&quot;gender&quot; checked&gt;
+    &lt;span class=&quot;form-icon&quot;&gt;&lt;/span&gt; Male
+  &lt;/label&gt;
+  &lt;label class=&quot;form-radio&quot;&gt;
+    &lt;input type=&quot;radio&quot; name=&quot;gender&quot;&gt;
+    &lt;span class=&quot;form-icon&quot;&gt;&lt;/span&gt; Female
+  &lt;/label&gt;
 &lt;/div&gt;</s-code>
     </section>
 
@@ -107,10 +107,10 @@
         </label>
       </div>
       <s-code lang="html">&lt;div class=&quot;form-group&quot;&gt;
-        &lt;label class=&quot;form-switch&quot;&gt;
-          &lt;input type=&quot;checkbox&quot;&gt;
-          &lt;span class=&quot;form-icon&quot;&gt;&lt;/span&gt; Send me emails with news and tips
-        &lt;/label&gt;
+  &lt;label class=&quot;form-switch&quot;&gt;
+    &lt;input type=&quot;checkbox&quot;&gt;
+    &lt;span class=&quot;form-icon&quot;&gt;&lt;/span&gt; Send me emails with news and tips
+  &lt;/label&gt;
 &lt;/div&gt;</s-code>
     </section>
 
@@ -123,10 +123,10 @@
         </label>
       </div>
       <s-code lang="html">&lt;div class=&quot;form-group&quot;&gt;
-        &lt;label class=&quot;form-checkbox&quot;&gt;
-          &lt;input type=&quot;checkbox&quot;&gt;
-          &lt;span class=&quot;form-icon&quot;&gt;&lt;/span&gt; Remember me
-        &lt;/label&gt;
+  &lt;label class=&quot;form-checkbox&quot;&gt;
+    &lt;input type=&quot;checkbox&quot;&gt;
+    &lt;span class=&quot;form-icon&quot;&gt;&lt;/span&gt; Remember me
+  &lt;/label&gt;
 &lt;/div&gt;</s-code>
     </section>
 
@@ -144,15 +144,15 @@
         <!-- form structure -->
       </form> 
       <s-code lang="html">&lt;form class=&quot;form-horizontal&quot;&gt;
-        &lt;div class=&quot;form-group&quot;&gt;
-          &lt;div class=&quot;col-3 col-sm-12&quot;&gt;
-            &lt;label class=&quot;form-label&quot; for=&quot;name-example-2&quot;&gt;Name&lt;/label&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;col-9 col-sm-12&quot;&gt;
-            &lt;input class=&quot;form-input&quot; type=&quot;text&quot; id=&quot;name-example-2&quot; placeholder=&quot;Name&quot;&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;!-- form structure --&gt;
+  &lt;div class=&quot;form-group&quot;&gt;
+    &lt;div class=&quot;col-3 col-sm-12&quot;&gt;
+      &lt;label class=&quot;form-label&quot; for=&quot;name-example-2&quot;&gt;Name&lt;/label&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-9 col-sm-12&quot;&gt;
+      &lt;input class=&quot;form-input&quot; type=&quot;text&quot; id=&quot;name-example-2&quot; placeholder=&quot;Name&quot;&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;!-- form structure --&gt;
 &lt;/form&gt;</s-code>
     </section>
 
@@ -167,12 +167,12 @@
         <span class="form-icon loading"></span>
       </div>
       <s-code lang="html">&lt;div class=&quot;form-group has-icon-left&quot;&gt;
-        &lt;input type=&quot;text&quot; class=&quot;form-input&quot; placeholder=&quot;...&quot;&gt;
-        &lt;feather-user class=&quot;form-icon icon&quot;&gt;&lt;/feather-user&gt;
+  &lt;input type=&quot;text&quot; class=&quot;form-input&quot; placeholder=&quot;...&quot;&gt;
+  &lt;feather-user class=&quot;form-icon icon&quot;&gt;&lt;/feather-user&gt;
 &lt;/div&gt;
 &lt;div class=&quot;form-group has-icon-right&quot;&gt;
-        &lt;input type=&quot;text&quot; class=&quot;form-input&quot; placeholder=&quot;...&quot;&gt;
-        &lt;span class=&quot;form-icon loading&quot;&gt;&lt;/span&gt;
+  &lt;input type=&quot;text&quot; class=&quot;form-input&quot; placeholder=&quot;...&quot;&gt;
+  &lt;span class=&quot;form-icon loading&quot;&gt;&lt;/span&gt;
 &lt;/div&gt;</s-code>
     </section>
 
@@ -253,12 +253,12 @@
         </div>
       </form>
       <s-code lang="html">&lt;div class=&quot;form-group&quot;&gt;
-          &lt;div class=&quot;col-3&quot;&gt;
-            &lt;label class=&quot;form-label&quot; for=&quot;date-example-1&quot;&gt;Date&lt;/label&gt;
-          &lt;/div&gt;
-          &lt;div class=&quot;col-9&quot;&gt;
-            &lt;input class=&quot;form-input&quot; type=&quot;date&quot; id=&quot;date-example-1&quot; value=&quot;2016-12-31&quot;&gt;
-          &lt;/div&gt;
+  &lt;div class=&quot;col-3&quot;&gt;
+    &lt;label class=&quot;form-label&quot; for=&quot;date-example-1&quot;&gt;Date&lt;/label&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-9&quot;&gt;
+    &lt;input class=&quot;form-input&quot; type=&quot;date&quot; id=&quot;date-example-1&quot; value=&quot;2016-12-31&quot;&gt;
+  &lt;/div&gt;
 &lt;/div&gt;</s-code>
     </section>
 
@@ -272,11 +272,11 @@
         </div>
       </div>
       <s-code lang="html">&lt;div class=&quot;form-group&quot;&gt;
-        &lt;div class=&quot;input-group&quot;&gt;
-          &lt;span class=&quot;input-group-addon&quot;&gt;...&lt;/span&gt;
-          &lt;input type=&quot;text&quot; class=&quot;form-input&quot; placeholder=&quot;...&quot;&gt;
-          &lt;s-button class=&quot;btn-primary input-group-btn&quot;&gt;Submit&lt;/s-button&gt;
-        &lt;/div&gt;
+  &lt;div class=&quot;input-group&quot;&gt;
+    &lt;span class=&quot;input-group-addon&quot;&gt;...&lt;/span&gt;
+    &lt;input type=&quot;text&quot; class=&quot;form-input&quot; placeholder=&quot;...&quot;&gt;
+    &lt;s-button class=&quot;btn-primary input-group-btn&quot;&gt;Submit&lt;/s-button&gt;
+  &lt;/div&gt;
 &lt;/div&gt;</s-code>
     </section>
 
@@ -287,8 +287,8 @@
         <textarea class="form-input" id="input-disabled-1" placeholder="Textarea" rows="3" disabled=""></textarea>
       </div> 
       <s-code lang="html">&lt;div class=&quot;form-group&quot;&gt;
-        &lt;label class=&quot;form-label&quot; for=&quot;input-disabled-1&quot;&gt;Message&lt;/label&gt;
-        &lt;textarea class=&quot;form-input&quot; id=&quot;input-disabled-1&quot; placeholder=&quot;Textarea&quot; rows=&quot;3&quot; disabled=&quot;&quot;&gt;&lt;/textarea&gt;
+  &lt;label class=&quot;form-label&quot; for=&quot;input-disabled-1&quot;&gt;Message&lt;/label&gt;
+  &lt;textarea class=&quot;form-input&quot; id=&quot;input-disabled-1&quot; placeholder=&quot;Textarea&quot; rows=&quot;3&quot; disabled=&quot;&quot;&gt;&lt;/textarea&gt;
 &lt;/div&gt;</s-code>
     </section>
 

@@ -7,6 +7,40 @@
     </section>
 
     <section>
+      <h3>Card</h3>
+      <div class="columns">
+        <div class="column col-4 col-sm-12">
+          <s-card>
+            <!-- All available slots -->
+            <img slot="img" src="../assets/img/424423-unsplash.jpg" alt="alt text">
+            <span slot="title">Heading</span>
+            <span slot="subtitle">Subtitle</span>
+            <span slot="body">Lorem ipsum dolor sit amet</span>
+            <span slot="cta">Call To Action</span>
+          </s-card>
+        </div>
+        <div class="column col-4 col-xs-12">
+          <s-card>
+            <!-- Include only needed slots -->
+            <span slot="cta">Card Button</span>
+          </s-card>
+        </div>
+      </div>
+      <s-code lang="html">&lt;s-card&gt;
+  &lt;img slot=&quot;img&quot; src=&quot;../assets/img/424423-unsplash.jpg&quot; alt=&quot;alt text&quot;&gt;
+  &lt;span slot=&quot;title&quot;&gt;Heading&lt;/span&gt;
+  &lt;span slot=&quot;subtitle&quot;&gt;Subtitle&lt;/span&gt;
+  &lt;span slot=&quot;body&quot;&gt;Lorem ipsum dolor sit amet&lt;/span&gt;
+  &lt;span slot=&quot;cta&quot;&gt;Call To Action&lt;/span&gt;
+&lt;/s-card&gt;
+
+&lt;s-card&gt;
+  &lt;!-- Include only needed slots --&gt;
+  &lt;span slot=&quot;cta&quot;&gt;Card Button&lt;/span&gt;
+&lt;/s-card&gt;</s-code>
+    </section>
+
+    <section>
       <h2>Buttons</h2>
       <s-button>Default Button</s-button>
       <s-button class="btn-primary">Primary Button</s-button>
@@ -65,9 +99,9 @@
         <s-button>Third Button</s-button>
       </s-button-group>
       <s-code lang="html">&lt;s-button-group&gt;
-    &lt;s-button&gt;First Button&lt;/s-button&gt;
-    &lt;s-button&gt;Second Button&lt;/s-button&gt;
-    &lt;s-button&gt;Third Button&lt;/s-button&gt;
+  &lt;s-button&gt;First Button&lt;/s-button&gt;
+  &lt;s-button&gt;Second Button&lt;/s-button&gt;
+  &lt;s-button&gt;Third Button&lt;/s-button&gt;
 &lt;/s-button-group&gt;</s-code>
     </section>
 

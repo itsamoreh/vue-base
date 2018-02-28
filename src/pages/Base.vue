@@ -217,8 +217,8 @@
 &lt;kbd&gt;Ctrl + S&lt;/kbd&gt;
 &lt;mark&gt;Highlighted&lt;/mark&gt;
 &lt;ruby&gt;
-            漢 &lt;rt&gt;kan&lt;/rt&gt;
-            字 &lt;rt&gt;ji&lt;/rt&gt;
+  漢 &lt;rt&gt;kan&lt;/rt&gt;
+  字 &lt;rt&gt;ji&lt;/rt&gt;
 &lt;/ruby&gt;
 &lt;s&gt;Strikethrough&lt;/s&gt;
 &lt;samp&gt;Sample&lt;/samp&gt;
@@ -236,8 +236,8 @@ Text &lt;sup&gt;Superscripted&lt;/sup&gt;
         <cite>Bill Gates</cite>
       </blockquote>
       <s-code lang="html">&lt;blockquote&gt;
-        &lt;p&gt;The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life.&lt;/p&gt;
-        &lt;cite&gt;Bill Gates&lt;/cite&gt;
+  &lt;p&gt;The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life.&lt;/p&gt;
+  &lt;cite&gt;Bill Gates&lt;/cite&gt;
 &lt;/blockquote&gt;</s-code>
     </section>
 
@@ -267,15 +267,15 @@ Text &lt;sup&gt;Superscripted&lt;/sup&gt;
         </div>
       </div>
       <s-code lang="html">&lt;ul&gt;
-        &lt;li&gt;list item 1&lt;/li&gt;
-        &lt;li&gt;list item 2
-          &lt;ul&gt;
-            &lt;li&gt;list item 2.1&lt;/li&gt;
-            &lt;li&gt;list item 2.2&lt;/li&gt;
-            &lt;li&gt;list item 2.3&lt;/li&gt;
-          &lt;/ul&gt;
-        &lt;/li&gt;
-        &lt;li&gt;list item 3&lt;/li&gt;
+  &lt;li&gt;list item 1&lt;/li&gt;
+  &lt;li&gt;list item 2
+    &lt;ul&gt;
+      &lt;li&gt;list item 2.1&lt;/li&gt;
+      &lt;li&gt;list item 2.2&lt;/li&gt;
+      &lt;li&gt;list item 2.3&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;list item 3&lt;/li&gt;
 &lt;/ul&gt;</s-code>
     </section>
 
@@ -303,25 +303,25 @@ Text &lt;sup&gt;Superscripted&lt;/sup&gt;
         </tbody>
       </table>
       <s-code lang="html">&lt;table class=&quot;table table-striped table-hover&quot;&gt;
-        &lt;thead&gt;
-          &lt;tr&gt;
-            &lt;th&gt;Name&lt;/th&gt;
-            &lt;th&gt;Genre&lt;/th&gt;
-            &lt;th&gt;Release Date&lt;/th&gt;
-          &lt;/tr&gt;
-        &lt;/thead&gt;
-        &lt;tbody&gt;
-          &lt;tr class=&quot;active&quot;&gt;
-            &lt;td&gt;The Shawshank Redemption&lt;/td&gt;
-            &lt;td&gt;Crime, Drama&lt;/td&gt;
-            &lt;td&gt;14 October 1994&lt;/td&gt;
-          &lt;/tr&gt;
-          &lt;tr&gt;
-            &lt;td&gt;Star Trek: Generations&lt;/td&gt;
-            &lt;td&gt;Action, Adventure, Mystery&lt;/td&gt;
-            &lt;td&gt;18 November 1994&lt;/td&gt;
-          &lt;/tr&gt;
-        &lt;/tbody&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Genre&lt;/th&gt;
+      &lt;th&gt;Release Date&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr class=&quot;active&quot;&gt;
+      &lt;td&gt;The Shawshank Redemption&lt;/td&gt;
+      &lt;td&gt;Crime, Drama&lt;/td&gt;
+      &lt;td&gt;14 October 1994&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Star Trek: Generations&lt;/td&gt;
+      &lt;td&gt;Action, Adventure, Mystery&lt;/td&gt;
+      &lt;td&gt;18 November 1994&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;</s-code>
     </section>
     

@@ -1,7 +1,7 @@
 <template>
   <div>
     <s-button v-on:click.native="toggle()" class="btn-text-icon">
-      <feather-arrow-up-right></feather-arrow-up-right> Modal
+      <feather-arrow-up-right></feather-arrow-up-right> Toggle Modal
     </s-button>
     <div
       class="modal" id="modal-id"

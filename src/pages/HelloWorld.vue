@@ -11,7 +11,7 @@
         v-for="(link, index) in links" :key="index"
       >
           <feather-external-link></feather-external-link>
-          <a :href="link.url">{{ link.title }}</a>
+          <a :href="link.url" target="_blank">{{ link.title }}</a>
       </s-button>
     </div>
   </div>
@@ -62,7 +62,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 // Global scss file with vars and mixins (aliased in webpack.base.conf.js)
-@import '~vars-mixins';
+@import '~vars';
 
 hr {
   margin: $layout-spacing-lg 0;

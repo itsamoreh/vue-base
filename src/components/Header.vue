@@ -23,7 +23,7 @@
           <s-button class="btn-link">Icons</s-button>
         </router-link>
         <s-button class="btn-primary btn-text-icon navbar-btn-github">
-          <a href="https://github.com/itsamoreh/vue-base">
+          <a target="_blank" href="https://github.com/itsamoreh/vue-base">
             <feather-github></feather-github>
             Github
           </a>
@@ -47,68 +47,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
 // Global scss file with vars and mixins (aliased in webpack.base.conf.js)
-@import '~vars-mixins';
+@import '~vars';
 
-// Navbar
-.navbar {
-  align-items: stretch;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: $unit-16;
-  height: $unit-16;
-
-  .navbar-section {
-    align-items: center;
-    display: flex;
-    flex: 1 0 0;
-
-    &:not(:first-child):last-child {
-      justify-content: flex-end;
-    }
-  }
-
-  .navbar-brand {
-    padding: $control-padding-y $control-padding-x; // Match the button padding
-    font-size: $font-size-lg;
-    font-weight: 500;
-    text-decoration: none;
-  }
-
-  .navbar-mobile-menu {
-    display: none;
-    justify-content: flex-end;
-
-    @include mediaMobile() {
-      display: flex;
-    }
-  }
-}
-
-a {
-  margin: 0 $layout-spacing;
-  text-decoration: none;
-  border-bottom: $unit-h solid transparent;
-
-  &:first-child {
-    margin-left: 0;
-  }
-
-  &:last-child {
-    margin-right: 0;
-  }
-
-  &.router-link-active {
-    border-bottom: $unit-h solid $primary-color;
-  }
-
-  &:focus,
-  .btn:focus {
-    box-shadow: none;
-  }
-}
-
-// Not navigation core styles:
 .navbar-btn-github {
   margin-left: $control-padding-x;
 }

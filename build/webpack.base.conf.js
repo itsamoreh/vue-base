@@ -36,8 +36,8 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
-      'vars-mixins': path.resolve(__dirname, '../src/assets/scss/vars-mixins/combined.scss'),
-      'base-styles': path.resolve(__dirname, '../src/assets/scss/base-styles/combined.scss')
+      'base': path.resolve(__dirname, '../src/styles/combined.scss'),
+      'vars': path.resolve(__dirname, '../src/styles/vars-mixins/combined.scss'),
     }
   },
   module: {

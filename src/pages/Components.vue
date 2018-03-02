@@ -3,7 +3,7 @@
   <div class="container grid-xl">
     <section>
       <h1>Components</h1>
-      <p><a href="https://picturepan2.github.io/spectre/getting-started.html">SpectreCSS based components</a>, component styles are scoped in each component at: <s-code>/src/components/*.vue</s-code></p>
+      <p><a href="https://picturepan2.github.io/spectre/getting-started.html">SpectreCSS based components</a>, component styles are at: <s-code>/src/styles/components/*.scss</s-code></p>
     </section>
 
     <section>
@@ -34,8 +34,9 @@
   &lt;span slot=&quot;cta&quot;&gt;Call To Action&lt;/span&gt;
 &lt;/s-card&gt;
 
+&lt;!-- Include only needed slots --&gt;
+
 &lt;s-card&gt;
-  &lt;!-- Include only needed slots --&gt;
   &lt;span slot=&quot;cta&quot;&gt;Card Button&lt;/span&gt;
 &lt;/s-card&gt;</s-code>
     </section>
@@ -127,7 +128,7 @@
 &lt;s-label class=&quot;label-warning label-rounded&quot;&gt;Warning Label&lt;/s-label&gt;
 &lt;s-label class=&quot;label-error label-rounded&quot;&gt;Error Label&lt;/s-label&gt;</s-code>
     </section>
-    
+
     <!-- Component Group Template -->
     <section class="d-hide">
       <h3>Title</h3>
@@ -150,7 +151,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-// Global scss file with vars and mixins (aliased in webpack.base.conf.js)
+// File with vars and mixins (aliased in webpack.base.conf.js)
 @import '~vars';
 
 section {

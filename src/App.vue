@@ -20,9 +20,7 @@ export default {
 </script>
 
 <style lang="scss">
-// Scss file with vars and mixins (aliased in webpack.base.conf.js)
-@import '~vars';
-// Scss file with base styles (aliased in webpack.base.conf.js)
+// File with vars-mixins and base styles (aliased in webpack.base.conf.js)
 @import '~base';
 
 // Make sure the footer is always at the bottom,

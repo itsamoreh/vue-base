@@ -1,13 +1,24 @@
 <template>
+  <!-- eslint-disable -->
   <div class="container grid-xl">
     <section>
 
       <h1>Icons</h1>
       <p>Use icons in components as follows:</p>
       <s-code lang="html">&lt;feather-star&gt;&lt;/feather-star&gt;
+
 &lt;!-- or --&gt;
-&lt;feather-icon type=&quot;star&quot;&gt;&lt;/feather-icon&gt;</s-code>
-      <p>Add new icons to: <s-code>/src/icons/components/</s-code></p>
+
+&lt;feather-icon type=&quot;star&quot;&gt;&lt;/feather-icon&gt;
+</s-code>
+      <p>Add new icons to: <code>/src/icons/components/</code>.</p>
+      <p>
+        <span class="text-primary">Note: </span>For ease of development every icon is imported by default.<br>Before deployment, remove the line that imports all icons in <code>main.js</code> and import only needed icons on pages or components.
+      </p>
+      <s-code>/src/main.js
+
+// Vue Feather Icons
+import VueFeatherIcon from './icons/vue-feather-icons';</s-code>
     </section>
     <div class="input-group search">
       <span class="input-group-addon addon-primary addon-lg">
@@ -301,7 +312,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-// Global scss file with vars and mixins (aliased in webpack.base.conf.js)
+// File with vars and mixins (aliased in webpack.base.conf.js)
 @import '~vars';
 
 section {

@@ -19,11 +19,14 @@
 
   .card-image {
     padding-top: $layout-spacing-lg;
+    background-color: $bg-color;
 
     &:first-child {
       padding-top: 0;
 
       img {
+        object-fit: cover;
+        width: 100%;
         border-top-left-radius: $border-radius;
         border-top-right-radius: $border-radius;
       }
@@ -35,5 +38,9 @@
         border-bottom-right-radius: $border-radius;
       }
     }
+  }
+
+  &:hover {
+    @include control-shadow($border-color);
   }
 }

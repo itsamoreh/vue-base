@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import Router from 'vue-router';
+
 // Pages
 import Components from '@/pages/Components';
 import Forms from '@/pages/Forms';

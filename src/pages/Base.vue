@@ -3,7 +3,18 @@
   <div class="container grid-xl">
     <section>
       <h1>Base</h1>
-      <p>Base Styles imported globally in: <s-code>/src/assets/scss/base-styles/</s-code></p>
+      <p>SASS variables and mixins are defined and configurable at: <code>/src/styles/vars-mixins/*</code>.<br>Base styles are at: <code>/src/assets/scss/base-styles/</code>.</p>
+      <p>Fonts are managed with NPM. To change fonts first uninstall defaults, then install new ones and edit <code>/src/styles/vars-mixins/_variables.scss</code>.</p>
+      <s-code>npm uninstall typeface-didact-gothic typeface-francois-one --save
+
+npm install typeface-whatever --save</s-code>
+      <s-code>/src/styles/vars-mixins/_variables.scss
+
+// Fonts
+// Credit: https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/
+$base-font-family: "Didact Gothic", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto !default;
+$heading-font-family: "Francois One", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto !default;
+$mono-font-family: "SF Mono", "Segoe UI Mono", "Roboto Mono", Menlo, Courier, monospace !default;</s-code>
     </section>
 
     <section>
@@ -324,7 +335,7 @@ Text &lt;sup&gt;Superscripted&lt;/sup&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;</s-code>
     </section>
-    
+
     <!-- Component Group Template -->
     <section class="d-hide">
       <h3>Title</h3>
@@ -347,7 +358,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
-// Global scss file with vars and mixins (aliased in webpack.base.conf.js)
+// File with vars and mixins (aliased in webpack.base.conf.js)
 @import '~vars';
 
 section {

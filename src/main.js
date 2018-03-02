@@ -5,6 +5,9 @@ import Vue from 'vue';
 // VeeValidate
 import VeeValidate from 'vee-validate';
 
+// --- Relative Imports --- //
+
+// App Component
 import App from './App';
 
 // Router

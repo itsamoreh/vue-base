@@ -17,14 +17,6 @@ import App from './App';
 // Router
 import router from './router';
 
-// Global UI Components (Alphabetical)
-import Button from './components/Button';
-import ButtonGroup from './components/ButtonGroup';
-import Card from './components/Card';
-import Code from './components/Code';
-import Label from './components/Label';
-import Modal from './components/Modal';
-
 // Vue Feather Icons
 import VueFeatherIcon from './icons/vue-feather-icons';
 
@@ -33,14 +25,6 @@ Vue.use(VueAxios, axios);
 
 // VeeValidate
 Vue.use(VeeValidate);
-
-// Global Components (alphabetical)
-Vue.component('s-button', Button);
-Vue.component('s-button-group', ButtonGroup);
-Vue.component('s-card', Card);
-Vue.component('s-code', Code);
-Vue.component('s-label', Label);
-Vue.component('s-modal', Modal);
 
 // Vue Feather Icon
 Vue.use(VueFeatherIcon);

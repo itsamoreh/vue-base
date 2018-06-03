@@ -1,6 +1,6 @@
 # vue-base
 
-> Vue.js base project with Spectre.css components, VeeValidate powered forms and Feather Icons
+> Vue.js base project with SCSS + Spectre.css, VeeValidate form validation and Feather Icons. Follow build setup, remove `views/HelloWorld.vue`, and start building something awesome! Visit `localhost:8080/icons` for a list of available icons.
 
 ## Build Setup
 

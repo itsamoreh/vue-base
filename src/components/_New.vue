@@ -6,10 +6,9 @@
 
 <script>
 export default {
-  name: 'NewComponent',
   data() {
     return {
-      msg: 'New Component',
+      msg: '',
     };
   },
 };

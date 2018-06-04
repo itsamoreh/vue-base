@@ -42,7 +42,6 @@ import VueFeatherIcon from './icons/vue-feather-icons';</s-code>
 
 <script>
 export default {
-  name: 'Icons',
   computed: {
     filteredIcons() {
       return this.icons.filter(icon =>

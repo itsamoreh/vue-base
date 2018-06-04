@@ -1,10 +1,10 @@
 <!--
 
-Naked page level component.
+Naked view level component.
 
-Organize page level components in a logical folder structure e.g.:
+Organize view level components in a logical folder structure e.g.:
 
-/src/pages/user/
+/src/views/user/
   Profile.vue
   Dashboard.vue
   Settings.vue
@@ -19,10 +19,9 @@ Organize page level components in a logical folder structure e.g.:
 
 <script>
 export default {
-  name: 'NewPage',
   data() {
     return {
-      msg: 'New Page',
+      msg: '',
     };
   },
 };

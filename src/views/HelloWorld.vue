@@ -26,7 +26,6 @@
 import { HTTP } from '@/http-common';
 
 export default {
-  name: 'HelloWorld',
   data() {
     return {
       links: [],
